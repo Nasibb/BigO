@@ -26,69 +26,32 @@
 
 #region 3.Verilmiş düzbucaqlı şkafın hər hansı bir qapıdan keçib-keçməyəcəyini  tapan algoritm yazın.
 
+//int skafHeight = int.Parse(Console.ReadLine());
+//int skafWidth = int.Parse(Console.ReadLine());
+//int skafLength = int.Parse(Console.ReadLine());
+//int qapiHeight = int.Parse(Console.ReadLine());
+//int qapiWidth = int.Parse(Console.ReadLine());
 
-int skafHeight = int.Parse(Console.ReadLine());
-int skafWidth = int.Parse(Console.ReadLine());
-int skafLength = int.Parse(Console.ReadLine());
-int qapiHeight = int.Parse(Console.ReadLine());
-int qapiWidth = int.Parse(Console.ReadLine());
-
-
-if (
-    ((skafHeight <= qapiHeight) && (skafWidth <= qapiWidth))
-    ||
-    ((skafHeight <= qapiHeight) && (skafLength <= qapiWidth))
-    ||
-    ((skafLength <= qapiWidth) && (skafWidth <= qapiHeight))
-    ||
-    ((skafHeight <= qapiWidth) && (skafWidth <= qapiHeight))
-    ||
-    ((skafLength <= qapiHeight) && (skafHeight <= qapiWidth))
-    ||
-    ((skafLength <= qapiHeight) && (skafWidth <= qapiWidth))
-    )
-{
-    Console.WriteLine("kecir");
-}
-
-
-//if 
-//   (( skafHeight <= qapiHeight) && (skafWidth <= qapiWidth))
-//{
-//    Console.WriteLine("kecir"); 
-//}
-
-//else if ((skafHeight <= qapiHeight) && (skafLength <= qapiWidth))
-//{
-//    Console.WriteLine("kecir");
-//}
-
-//else if ((skafLength <= qapiWidth) && (skafWidth <= qapiHeight))
-//{
-//    Console.WriteLine("kecir");
-//}
-
-//else if ((skafHeight <= qapiWidth) && (skafWidth <= qapiHeight))
-//{
-//    Console.WriteLine("kecir");
-//}
-
-//else if ((skafLength <= qapiHeight) && (skafHeight <= qapiWidth))
-//{
-//    Console.WriteLine("kecir");
-//}
-
-//else if ((skafLength <= qapiHeight) && (skafWidth <= qapiWidth))
+//if  (
+//    ((skafHeight <= qapiHeight) && (skafWidth <= qapiWidth))
+//    ||
+//    ((skafHeight <= qapiHeight) && (skafLength <= qapiWidth))
+//    ||
+//    ((skafLength <= qapiWidth) && (skafWidth <= qapiHeight))
+//    ||
+//    ((skafHeight <= qapiWidth) && (skafWidth <= qapiHeight))
+//    ||
+//    ((skafLength <= qapiHeight) && (skafHeight <= qapiWidth))
+//    ||
+//    ((skafLength <= qapiHeight) && (skafWidth <= qapiWidth))
+//    )
 //{
 //    Console.WriteLine("kecir");
 //}
     
-else
-{
-    Console.WriteLine("kecmir...");
-}
-
-   
-
+//else
+//{
+//    Console.WriteLine("kecmir...");
+//}
 
 #endregion
